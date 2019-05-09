@@ -1,0 +1,38 @@
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <stdlib.h>
+#include <cstdio>
+#include <algorithm>
+#include <cmath>
+using namespace std;
+
+int t[1000];
+int n;
+int sT, eT, b;
+int main(){
+    
+    freopen("blist.in","r",stdin);
+    freopen("blist.out","w",stdout);
+    cin >> n;
+    for(int i = 0;i < 1000; i++){
+        t[i] = 0;
+    }
+    for(int i = 0; i < n; i++){
+        cin >> sT >> eT >> b;
+        for(int j = sT; j < eT; j++){
+            t[j] +=b;
+        }
+    }
+    
+    int maxx = -1;
+    
+    for(int i = 0; i < 1000; i++){
+        if(t[i] > maxx){
+            maxx = t[i];
+        }
+    }
+    
+    cout << maxx << endl;
+}
