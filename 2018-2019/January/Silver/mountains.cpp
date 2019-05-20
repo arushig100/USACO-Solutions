@@ -44,7 +44,6 @@ int main(){
     for(int i = 0; i < n-1; i++){
         for(int j =i+1; j < n; j++){
             if(i!=j and inTriangle(ar[j],ar[i])){
-               // cout << ar[j].x << " " << ar[i].x << endl;
                 x = true;
                 break;
             }
