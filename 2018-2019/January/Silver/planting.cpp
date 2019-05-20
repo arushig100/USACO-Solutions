@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -7,14 +5,12 @@
 #include <cstdio>
 #include <algorithm>
 #include <cmath>
-
 using namespace std;
 
 struct paths{
     int beg;
     int end;
 };
-
 
 int n;
 paths ar[100000];
