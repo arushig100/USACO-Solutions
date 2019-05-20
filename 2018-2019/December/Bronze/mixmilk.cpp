@@ -1,9 +1,6 @@
 
 #include <iostream>
 #include <fstream>
-#include <string>
-#include <stdlib.h>
-#include <cstdio>
 #include <algorithm>
 #include <cmath>
 using namespace std;
