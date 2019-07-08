@@ -1,6 +1,4 @@
-/*
-// 7/2 - Scales - Searching - DONE
- 
+
 #include <iostream>
 using namespace std;
 
@@ -47,4 +45,4 @@ int main(){
 }
 
 
-*/
+
