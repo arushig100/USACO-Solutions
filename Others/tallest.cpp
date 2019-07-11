@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -35,7 +34,6 @@ int main(){
     }
     // sorts list
     sort(list, list+r, s);
-    
     // removes duplicates
     for(int i = 0; i <r-1 ;i++){
         if(list[i+1].x == list[i].x and list[i+1].y == list[i].y){
