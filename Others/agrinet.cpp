@@ -17,7 +17,6 @@ int main(){
         ar[i] = inf;
     }
     ar[1] = 0;
-    
     int ans = 0;
     for(int i = 1; i <=n; i++){
         int smallest = inf;
