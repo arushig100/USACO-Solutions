@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -37,7 +36,6 @@ int main(){
         grid[preRoads[i][0]][preRoads[i][1]] = 0;
         grid[preRoads[i][1]][preRoads[i][0]] = 0;
     }
-    
     for(int i = 1;i <=n; i++){
         ar[i] = inf;
     }
