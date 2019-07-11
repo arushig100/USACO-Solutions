@@ -1,3 +1,4 @@
+// Dynamic Programming
 #include <iostream>
 using namespace std;
 // dp = [index][total weight of haybales eaten]  = true/false;
