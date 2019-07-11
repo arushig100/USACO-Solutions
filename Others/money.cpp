@@ -1,3 +1,4 @@
+// Dynamic Programming
 #include <iostream>
 using namespace std;
 long long int numOfCoins,moneyNeeded;
